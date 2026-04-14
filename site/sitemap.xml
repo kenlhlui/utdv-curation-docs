@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://kenlhlui.github.io/utdv-curation-docs/</loc>
-      </url>
-      <url>
-        <loc>https://kenlhlui.github.io/utdv-curation-docs/Welcome/</loc>
+        <loc>https://kenlhlui.github.io/utdv-curation-docs/welcome/</loc>
       </url>
       <url>
         <loc>https://kenlhlui.github.io/utdv-curation-docs/installation/</loc>
       </url>
       <url>
-        <loc>https://kenlhlui.github.io/utdv-curation-docs/markdown/</loc>
+        <loc>https://kenlhlui.github.io/utdv-curation-docs/testing/</loc>
       </url>
 </urlset>
