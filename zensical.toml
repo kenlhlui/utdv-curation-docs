@@ -45,10 +45,16 @@ Copyright &copy; 2026 The authors
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-    { "Welcome" = "welcome.md" },
-    { "Installation" = "installation.md" },
-    { "Testing" = "testing.md" },
-    { "Features" = "features.md" },
+  { "Welcome" = "welcome.md" },
+  { "Installation" = "installation.md" },
+  { "Testing" = "testing.md" },
+  { "Pages" = [
+      "tool_page/landing.md",
+      "tool_page/new_dataset.md",
+      "tool_page/checklist.md",
+      "tool_page/resume.md",
+      "tool_page/delete.md",
+  ]}
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize

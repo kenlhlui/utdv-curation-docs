@@ -15,8 +15,6 @@
         <link rel="canonical" href="https://kenlhlui.github.io/utdv-curation-docs/features/">
       
       
-        <link rel="prev" href="../testing/">
-      
       
       
         
@@ -294,26 +292,81 @@
       
   
   
+  
+  
     
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      
-      
+    
       
         
       
+        
       
-      <a href="././" class="md-nav__link md-nav__link--active">
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pages
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pages
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool_page/landing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Features
+    Landing
   
 
     
@@ -322,6 +375,125 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool_page/new_dataset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New Dataset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool_page/checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool_page/resume/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resume Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool_page/delete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Delete Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -378,53 +550,6 @@
                   
 
 <h1 id="features-of-the-u-of-t-dataverse-curation-tool">Features of the U of T Dataverse Curation Tool<a class="headerlink" href="#features-of-the-u-of-t-dataverse-curation-tool" title="Permanent link">&para;</a></h1>
-<h1 id="landing-page">Landing page<a class="headerlink" href="#landing-page" title="Permanent link">&para;</a></h1>
-<p>[PLACEHOLDER_IMAGE_FOR_LANDING_PAGE]</p>
-<p>This is the landing page of the tool. You will have the option to:
-1. Start a new dataset review by clicking the 'New dataset' box.
-2. Resume a previous dataset review by clicking the 'Resume project' box.
-3. Delete a previous dataset review by clicking the 'Delete project' box.</p>
-<h1 id="new-dataset-page">New dataset page<a class="headerlink" href="#new-dataset-page" title="Permanent link">&para;</a></h1>
-<p>[PLACEHOLDER_IMAGE_FOR_NEW_DATASET_PAGE]</p>
-<p>This is the page for starting a new dataset review. Each dataset review is considered a project in the tool. To start a new dataset review, you will need to input information as stated in the form, including the base url of the repository (e.g., <a href="https://demo.borealisdata.ca/">https://demo.borealisdata.ca/</a>), API token of your account, the dataset DOI, the project ID, etc. Plus curator information like the name and email of yourself. </p>
-<p>You also have to select the checklist to use for the review, from the dropdown menu.</p>
-<p>Once you submit the form, the tool will start the review and redirect you to the checklist page.</p>
-<h1 id="checklist-page">Checklist page<a class="headerlink" href="#checklist-page" title="Permanent link">&para;</a></h1>
-<p>[PLACEHOLDER_IMAGE_FOR_CHECKLIST_PAGE]</p>
-<p>This is the checklist page. The checklist is generated based on the dataset information you provided in the previous step. The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.</p>
-<p>At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST INFORMATION' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.</p>
-<p>Next, below the project and checklist information, you will see the status and time spent dashboard. It shows the count of each status against the total number of checklist items, and the total time spent on the checklist.</p>
-<p>Then, you will see filter section, where you can filter the checklist items by the status and priority.</p>
-<p>Finally, you will see the checklist table. Each row in the table is a checklist item. The columns in the table include:</p>
-<ol>
-<li><strong>ID</strong>: the ID of the checklist item.</li>
-<li><strong>Action Item</strong>: the description of the checklist item, which is structured below<ol>
-<li>The leading item description: this is a concise description of the checklist item</li>
-<li>The guidance: this is a more detailed description of the checklist item, providing more context and guidance on how to review the item, such as what information to look for, and how to determine the status of the item.</li>
-</ol>
-</li>
-<li><strong>Information Location</strong>: this section is divided into three parts:<ol>
-<li>Check type: the badge indicating whether this check item is automated, semiautomatic, or manual.</li>
-<li>'Tools check': If it's an automated or semiautomated check, the specific check that the tool performs for this item will be listed here. A box will follow with the check, showing what the check is and the result of the check if you have run it.</li>
-<li>'Curator Check' information, where is a prompt that tells you what information to look.</li>
-</ol>
-</li>
-<li><strong>Priority</strong>: the priority level for the checklist item, mostly for indicating the level of communication needed with the data depositor to resolve the item. The level of priority is described below:<ol>
-<li>Info: this indicates that the checklist item is for information only. It's more for contextual information, and (usually) does not require action from the curator.</li>
-<li>Required: this indicates that the checklist item is required. It means that if the item is with 'follow-up' status at the end of the review, the dataset will not be able to be published. The curator will need to follow up with the data depositor to resolve the item.</li>
-<li>Recommended: this indicates that the checklist item is recommended. It means that if the item is with 'follow-up' status at the end of the review, the dataset can still be published, but it's recommended to follow up with the data depositor to resolve the item. This depends on how many items are with 'follow-up' status, to avoid overwhelming the data depositor with too many follow-up items.</li>
-</ol>
-</li>
-<li><strong>Status</strong>: the status of the checklist item, which can be the following:<ol>
-<li>Pass: the item has passed the review.</li>
-<li>Follow-up: the item requires follow-up with the data depositor.</li>
-<li>TBD: to be determined, which means that the curator is not sure about the status of the item, and may need to consult with other curators or the data depositor</li>
-<li>Not Applicable: this usually applies to items with 'Info' priority, which means that the item is not applicable to the dataset, and can be marked as 'Not Applicable' without follow-up.</li>
-</ol>
-</li>
-<li><strong>Comments</strong>: the comments for the checklist item. You can fill in the comments with any notes or thoughts you have about the item during the review, such as what information you found for the item, and why you determine the status of the item.</li>
-<li><strong>Time Spent</strong>: the time spent on the checklist item. You can log the time spent on each item in the checklist. Click the start <code>▶︎</code> button to start the timer when you begin working on an item, and click the stop <code>■</code> button when you finish. The time will be logged in this column. If you forget to start the timer, you can also manually input the time spent in this column in the format of MM:SS (e.g. 15:30 for 15 minutes and 30 seconds).</li>
-</ol>
 <h1 id="resume-project-page">Resume project page<a class="headerlink" href="#resume-project-page" title="Permanent link">&para;</a></h1>
 <p>[PLACEHOLDER_IMAGE_FOR_RESUME_PROJECT_PAGE]</p>
 <h1 id="delete-project-page">Delete project page<a class="headerlink" href="#delete-project-page" title="Permanent link">&para;</a></h1>
@@ -466,28 +591,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../testing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Testing">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Testing
-              </div>
-            </div>
-          </a>
-        
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">

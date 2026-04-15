@@ -1,29 +1,8 @@
 ---
-title: Features
-description: Introduction to the features of the U of T Dataverse Curation Tool
+title: Checklist
+description: The checklist page of the U of T Dataverse Curation Tool
 
 ---
-
-Features of the U of T Dataverse Curation Tool
-===
-
-# Landing page
-[PLACEHOLDER_IMAGE_FOR_LANDING_PAGE]
-
-This is the landing page of the tool. You will have the option to:
-1. Start a new dataset review by clicking the 'New dataset' box.
-2. Resume a previous dataset review by clicking the 'Resume project' box.
-3. Delete a previous dataset review by clicking the 'Delete project' box.
-
-
-# New dataset page
-[PLACEHOLDER_IMAGE_FOR_NEW_DATASET_PAGE]
-
-This is the page for starting a new dataset review. Each dataset review is considered a project in the tool. To start a new dataset review, you will need to input information as stated in the form, including the base url of the repository (e.g., https://demo.borealisdata.ca/), API token of your account, the dataset DOI, the project ID, etc. Plus curator information like the name and email of yourself. 
-
-You also have to select the checklist to use for the review, from the dropdown menu.
-
-Once you submit the form, the tool will start the review and redirect you to the checklist page.
 
 # Checklist page
 [PLACEHOLDER_IMAGE_FOR_CHECKLIST_PAGE]
@@ -57,11 +36,3 @@ Finally, you will see the checklist table. Each row in the table is a checklist 
       4. Not Applicable: this usually applies to items with 'Info' priority, which means that the item is not applicable to the dataset, and can be marked as 'Not Applicable' without follow-up.
 6. **Comments**: the comments for the checklist item. You can fill in the comments with any notes or thoughts you have about the item during the review, such as what information you found for the item, and why you determine the status of the item.
 7. **Time Spent**: the time spent on the checklist item. You can log the time spent on each item in the checklist. Click the start `▶︎` button to start the timer when you begin working on an item, and click the stop `■` button when you finish. The time will be logged in this column. If you forget to start the timer, you can also manually input the time spent in this column in the format of MM:SS (e.g. 15:30 for 15 minutes and 30 seconds).
-
-
-# Resume project page
-
-[PLACEHOLDER_IMAGE_FOR_RESUME_PROJECT_PAGE]
-
-# Delete project page
-[PLACEHOLDER_IMAGE_FOR_DELETE_PROJECT_PAGE]
