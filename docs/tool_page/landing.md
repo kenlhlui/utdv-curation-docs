@@ -6,7 +6,7 @@ description: Introduction to the features of the U of T Dataverse Curation Tool
 
 # Landing page
 <figure markdown="span">
-  ![Image title](/assets/images/landing_page.png){ width="800" }<figcaption>Landing page of the U of T Dataverse Curation Tool</figcaption>
+  ![Image title](assets/images/landing_page.png){ width="800" }<figcaption>Landing page of the U of T Dataverse Curation Tool</figcaption>
 </figure>
 
 This is the landing page of the tool. You will have the option to:

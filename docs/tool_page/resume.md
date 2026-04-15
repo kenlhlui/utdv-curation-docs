@@ -8,7 +8,7 @@ Resume Project page
 ===
 
 <figure markdown="span">
-  ![Resume Project Page](/assets/images/resume_project_page.png){ width="800" }<figcaption>Resume Project page of the U of T Dataverse Curation Tool</figcaption>
+  ![Resume Project Page](assets/images/resume_project_page.png){ width="800" }<figcaption>Resume Project page of the U of T Dataverse Curation Tool</figcaption>
 </figure>
 
 This is the page for resuming a project.
