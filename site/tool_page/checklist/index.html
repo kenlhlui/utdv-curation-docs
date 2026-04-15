@@ -430,6 +430,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checklist
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="././" class="md-nav__link md-nav__link--active">
         
   
@@ -446,6 +464,81 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backend-process-of-generating-the-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend process of generating the checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-metadata-and-checklist-metadata-tabs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project metadata and checklist metadata tabs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-and-time-spent-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status and time spent dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist table
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -532,6 +625,11 @@
                       
                     
                     
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
                   
                   <div class="md-sidebar__inner">
                     
@@ -543,6 +641,69 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backend-process-of-generating-the-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend process of generating the checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-metadata-and-checklist-metadata-tabs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project metadata and checklist metadata tabs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-and-time-spent-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status and time spent dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist table
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -606,11 +767,39 @@
                   
 
 <h1 id="checklist-page">Checklist page<a class="headerlink" href="#checklist-page" title="Permanent link">&para;</a></h1>
-<p>[PLACEHOLDER_IMAGE_FOR_CHECKLIST_PAGE]</p>
-<p>This is the checklist page. The checklist is generated based on the dataset information you provided in the previous step. The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.</p>
-<p>At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST INFORMATION' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.</p>
+<details class="note">
+<summary>Screenshot of the checklist page</summary>
+<p><figure markdown="span">
+<img alt="Image title" src="/assets/images/checklist_full.png" width="800" /><figcaption>Checklist page of the U of T Dataverse Curation Tool</figcaption>
+</figure></p>
+</details>
+<p>Click the collapsible section to expand and view the checklist page.</p>
+<h2 id="backend-process-of-generating-the-checklist">Backend process of generating the checklist<a class="headerlink" href="#backend-process-of-generating-the-checklist" title="Permanent link">&para;</a></h2>
+<p>The checklist is generated based on the dataset information you provided in the previous step. </p>
+<p>The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.</p>
+<h2 id="project-metadata-and-checklist-metadata-tabs">Project metadata and checklist metadata tabs<a class="headerlink" href="#project-metadata-and-checklist-metadata-tabs" title="Permanent link">&para;</a></h2>
+<figure>
+<img alt="Project metadata and checklist metadata" src="/assets/images/project_checklist_meta_tab.png" width="1000" /><figcaption>Project metadata and checklist metadata tabs</figcaption>
+</figure>
+<p>At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST METADATA' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.</p>
 <p>Next, below the project and checklist information, you will see the status and time spent dashboard. It shows the count of each status against the total number of checklist items, and the total time spent on the checklist.</p>
-<p>Then, you will see filter section, where you can filter the checklist items by the status and priority.</p>
+<h2 id="status-and-time-spent-dashboard">Status and time spent dashboard<a class="headerlink" href="#status-and-time-spent-dashboard" title="Permanent link">&para;</a></h2>
+<figure>
+<img alt="Status and time spent dashboard" src="/assets/images/status-time-dash.png" width="1000" /><figcaption>Status and time spent dashboard</figcaption>
+</figure>
+<p>The status and time spent dashboard is designed to give you a quick overview of the progress of your checklist review. </p>
+<p>The status count will update as you:
+1. Update the 'Status' of each checklist item in the table
+2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent.</p>
+<h2 id="filter">Filter<a class="headerlink" href="#filter" title="Permanent link">&para;</a></h2>
+<figure>
+<img alt="Filter section" src="/assets/images/filter.png" width="1000" /><figcaption>Filter section</figcaption>
+</figure>
+<p>This is the  filter section, where you can filter the checklist items by the status and priority.</p>
+<h2 id="checklist-table">Checklist table<a class="headerlink" href="#checklist-table" title="Permanent link">&para;</a></h2>
+<figure>
+<img alt="Checklist table" src="/assets/images/checklist_table.png" width="1000" /><figcaption>Checklist table</figcaption>
+</figure>
 <p>Finally, you will see the checklist table. Each row in the table is a checklist item. The columns in the table include:</p>
 <ol>
 <li><strong>ID</strong>: the ID of the checklist item.</li>

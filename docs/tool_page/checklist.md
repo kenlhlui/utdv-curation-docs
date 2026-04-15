@@ -5,15 +5,56 @@ description: The checklist page of the U of T Dataverse Curation Tool
 ---
 
 # Checklist page
-[PLACEHOLDER_IMAGE_FOR_CHECKLIST_PAGE]
+??? note "Screenshot of the checklist page"
 
-This is the checklist page. The checklist is generated based on the dataset information you provided in the previous step. The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.
+    <figure markdown="span">
+    ![Image title](/assets/images/checklist_full.png){ width="800" }<figcaption>Checklist page of the U of T Dataverse Curation Tool</figcaption>
+    </figure>
 
-At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST INFORMATION' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.
+Click the collapsible section to expand and view the checklist page.
+
+
+## Backend process of generating the checklist
+The checklist is generated based on the dataset information you provided in the previous step. 
+
+The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.
+
+## Project metadata and checklist metadata tabs
+
+<figure markdown="span">
+![Project metadata and checklist metadata](/assets/images/project_checklist_meta_tab.png){ width="1000" }<figcaption>Project metadata and checklist metadata tabs</figcaption>
+</figure>
+
+At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST METADATA' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.
 
 Next, below the project and checklist information, you will see the status and time spent dashboard. It shows the count of each status against the total number of checklist items, and the total time spent on the checklist.
 
-Then, you will see filter section, where you can filter the checklist items by the status and priority.
+## Status and time spent dashboard
+
+<figure markdown="span">
+![Status and time spent dashboard](/assets/images/status-time-dash.png){ width="1000" }<figcaption>Status and time spent dashboard</figcaption>
+</figure>
+
+The status and time spent dashboard is designed to give you a quick overview of the progress of your checklist review. 
+
+The status count will update as you:
+1. Update the 'Status' of each checklist item in the table
+2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent.
+
+## Filter
+
+<figure markdown="span">
+![Filter section](/assets/images/filter.png){ width="1000" }<figcaption>Filter section</figcaption>
+</figure>
+
+This is the  filter section, where you can filter the checklist items by the status and priority.
+
+
+## Checklist table
+
+<figure markdown="span">
+![Checklist table](/assets/images/checklist_table.png){ width="1000" }<figcaption>Checklist table</figcaption>
+</figure>
 
 Finally, you will see the checklist table. Each row in the table is a checklist item. The columns in the table include:
 
