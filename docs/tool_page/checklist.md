@@ -41,6 +41,8 @@ The status count will update as you:
 1. Update the 'Status' of each checklist item in the table
 2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent.
 
+On the top right corner of the dashboard, there's a 'View Only' button, where you can read the checklist in a view-only mode, without the ability to edit the checklist. 
+
 ## Filter
 
 <figure markdown="span">
@@ -77,3 +79,15 @@ Finally, you will see the checklist table. Each row in the table is a checklist 
       4. Not Applicable: this usually applies to items with 'Info' priority, which means that the item is not applicable to the dataset, and can be marked as 'Not Applicable' without follow-up.
 6. **Comments**: the comments for the checklist item. You can fill in the comments with any notes or thoughts you have about the item during the review, such as what information you found for the item, and why you determine the status of the item.
 7. **Time Spent**: the time spent on the checklist item. You can log the time spent on each item in the checklist. Click the start `▶︎` button to start the timer when you begin working on an item, and click the stop `■` button when you finish. The time will be logged in this column. If you forget to start the timer, you can also manually input the time spent in this column in the format of MM:SS (e.g. 15:30 for 15 minutes and 30 seconds).
+
+# Checklist buttons
+
+<figure markdown="span">
+![Checklist buttons](/assets/images/checklist-bottom-buttons.png){ width="1000" }<figcaption>Checklist buttons</figcaption>
+</figure>
+
+At the bottom of the checklist table, there are four buttons:
+1. **Save Curation Log (Word)**: this button will save the curation log in a Word document format. The curation log includes the checklist table with all the information you have filled in.
+2. **Calculate Time Spent**: this button will calculate the total time spent on the checklist based on the time logged for each item. A notification will pop up to show the total time spent.
+3. **Export YAML**: this button will export the checklist table in a YAML format.
+4. **New Dataset**: this button will take you back to the landing page.
