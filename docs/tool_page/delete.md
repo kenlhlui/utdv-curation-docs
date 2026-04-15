@@ -8,7 +8,7 @@ Delete Project page
 ===
 
 <figure markdown="span">
-  ![Delete Project Page](/assets/images/delete_project_page.png){ width="800" }<figcaption>Delete Project page of the U of T Dataverse Curation Tool</figcaption>
+  ![Delete Project Page](assets/images/delete_project_page.png){ width="800" }<figcaption>Delete Project page of the U of T Dataverse Curation Tool</figcaption>
 </figure>
 
 This is the page for deleting a project.

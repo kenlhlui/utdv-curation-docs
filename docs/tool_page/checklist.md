@@ -8,7 +8,7 @@ description: The checklist page of the U of T Dataverse Curation Tool
 ??? note "Screenshot of the checklist page"
 
     <figure markdown="span">
-    ![Image title](/assets/images/checklist_full.png){ width="800" }<figcaption>Checklist page of the U of T Dataverse Curation Tool</figcaption>
+    ![Image title](assets/images/checklist_full.png){ width="800" }<figcaption>Checklist page of the U of T Dataverse Curation Tool</figcaption>
     </figure>
 
 Click the collapsible section to expand and view the checklist page.
@@ -22,7 +22,7 @@ The tool first retrieves the dataset metadata and files information, and run aut
 ## Project metadata and checklist metadata tabs
 
 <figure markdown="span">
-![Project metadata and checklist metadata](/assets/images/project_checklist_meta_tab.png){ width="1000" }<figcaption>Project metadata and checklist metadata tabs</figcaption>
+![Project metadata and checklist metadata](assets/images/project_checklist_meta_tab.png){ width="1000" }<figcaption>Project metadata and checklist metadata tabs</figcaption>
 </figure>
 
 At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST METADATA' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.
@@ -32,7 +32,7 @@ Next, below the project and checklist information, you will see the status and t
 ## Status and time spent dashboard
 
 <figure markdown="span">
-![Status and time spent dashboard](/assets/images/status-time-dash.png){ width="1000" }<figcaption>Status and time spent dashboard</figcaption>
+![Status and time spent dashboard](assets/images/status-time-dash.png){ width="1000" }<figcaption>Status and time spent dashboard</figcaption>
 </figure>
 
 The status and time spent dashboard is designed to give you a quick overview of the progress of your checklist review. 
@@ -46,7 +46,7 @@ On the top right corner of the dashboard, there's a 'View Only' button, where yo
 ## Filter
 
 <figure markdown="span">
-![Filter section](/assets/images/filter.png){ width="1000" }<figcaption>Filter section</figcaption>
+![Filter section](assets/images/filter.png){ width="1000" }<figcaption>Filter section</figcaption>
 </figure>
 
 This is the  filter section, where you can filter the checklist items by the status and priority.
@@ -55,7 +55,7 @@ This is the  filter section, where you can filter the checklist items by the sta
 ## Checklist table
 
 <figure markdown="span">
-![Checklist table](/assets/images/checklist_table.png){ width="1000" }<figcaption>Checklist table</figcaption>
+![Checklist table](assets/images/checklist_table.png){ width="1000" }<figcaption>Checklist table</figcaption>
 </figure>
 
 Finally, you will see the checklist table. Each row in the table is a checklist item. The columns in the table include:
@@ -83,7 +83,7 @@ Finally, you will see the checklist table. Each row in the table is a checklist 
 # Checklist buttons
 
 <figure markdown="span">
-![Checklist buttons](/assets/images/checklist-bottom-buttons.png){ width="1000" }<figcaption>Checklist buttons</figcaption>
+![Checklist buttons](assets/images/checklist-bottom-buttons.png){ width="1000" }<figcaption>Checklist buttons</figcaption>
 </figure>
 
 At the bottom of the checklist table, there are four buttons:
