@@ -8,7 +8,7 @@ Resume Project page
 ===
 
 <figure markdown="span">
-  ![Resume Project Page](/assets/images/resume_project.png){ width="800" }<figcaption>Resume Project page of the U of T Dataverse Curation Tool</figcaption>
+  ![Resume Project Page](/assets/images/resume_project_page.png){ width="800" }<figcaption>Resume Project page of the U of T Dataverse Curation Tool</figcaption>
 </figure>
 
 This is the page for resuming a project.
@@ -21,4 +21,5 @@ You can use the filter section to search for the project you want to resume, by:
 2. Filtering the curator by selecting the curator name from the dropdown menu.
 
 # Project table
-The project table lists all the curation projects. You can click on the row of the project to access the the checklist page of the project. 
+The project table lists all the curation projects.
+
