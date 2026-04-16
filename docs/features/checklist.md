@@ -4,36 +4,38 @@ description: The checklist page of the U of T Dataverse Curation Tool
 
 ---
 
-# Checklist page
+Checklist page
+===
+
+## Introduction
+The Checklist page is the working area for the curation review. This is where curators will review the dataset and fill in the checklist information. The checklist is generated based on the dataset information you provided in the previous step, and also based on the automated checks performed by the tool.
+
+Click the collapsible section below to expand and view the checklist page.
+
 ??? note "Screenshot of the checklist page"
 
     <figure markdown="span">
     ![Image title](assets/images/checklist_full.png){ width="800" }<figcaption>Checklist page of the U of T Dataverse Curation Tool</figcaption>
     </figure>
 
-Click the collapsible section to expand and view the checklist page.
+## Feature overview
 
-
-## Backend process of generating the checklist
-The checklist is generated based on the dataset information you provided in the previous step. 
-
-The tool first retrieves the dataset metadata and files information, and run automated checks for some checklist items (those with the 'automated' badge in the 'Information Location' column) based on the retrieved information.
-
-## Project metadata and checklist metadata tabs
+### Project metadata and checklist metadata tabs
 
 <figure markdown="span">
 ![Project metadata and checklist metadata](assets/images/project_checklist_meta_tab.png){ width="1000" }<figcaption>Project metadata and checklist metadata tabs</figcaption>
 </figure>
 
-At the top of the page, you will see the project information (under the 'PROJECT INFORMATION' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST METADATA' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.
+At the top of the page, you will see the project information (under the 'PROJECT METADATA' tab) such as project ID, dataset DOI, dataset title, etc. In the 'CHECKLIST METADATA' tab, you will find the the checklist metadata such as the checklist title, version, checklist curation, etc.
 
-Next, below the project and checklist information, you will see the status and time spent dashboard. It shows the count of each status against the total number of checklist items, and the total time spent on the checklist.
 
-## Status and time spent dashboard
+### Status and time spent dashboard
 
 <figure markdown="span">
 ![Status and time spent dashboard](assets/images/status-time-dash.png){ width="1000" }<figcaption>Status and time spent dashboard</figcaption>
 </figure>
+
+Next, below the project and checklist metadata, you will see the status and time spent dashboard. It shows the count of each status against the total number of checklist items, and the total time spent on the checklist.
 
 The status and time spent dashboard is designed to give you a quick overview of the progress of your checklist review. 
 
@@ -41,9 +43,9 @@ The status count will update as you:
 1. Update the 'Status' of each checklist item in the table
 2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent.
 
-On the top right corner of the dashboard, there's a 'View Only' button, where you can read the checklist in a view-only mode, without the ability to edit the checklist. 
+On the top right corner of the dashboard, there's a 'View Only' button, where you can toggle the page to a view-only mode, without the ability to edit the checklist.
 
-## Filter
+### Filter
 
 <figure markdown="span">
 ![Filter section](assets/images/filter.png){ width="1000" }<figcaption>Filter section</figcaption>
@@ -52,7 +54,7 @@ On the top right corner of the dashboard, there's a 'View Only' button, where yo
 This is the  filter section, where you can filter the checklist items by the status and priority.
 
 
-## Checklist table
+### Checklist table
 
 <figure markdown="span">
 ![Checklist table](assets/images/checklist_table.png){ width="1000" }<figcaption>Checklist table</figcaption>
@@ -80,13 +82,14 @@ Finally, you will see the checklist table. Each row in the table is a checklist 
 6. **Comments**: the comments for the checklist item. You can fill in the comments with any notes or thoughts you have about the item during the review, such as what information you found for the item, and why you determine the status of the item.
 7. **Time Spent**: the time spent on the checklist item. You can log the time spent on each item in the checklist. Click the start `▶︎` button to start the timer when you begin working on an item, and click the stop `■` button when you finish. The time will be logged in this column. If you forget to start the timer, you can also manually input the time spent in this column in the format of MM:SS (e.g. 15:30 for 15 minutes and 30 seconds).
 
-# Checklist buttons
+### Checklist buttons
 
 <figure markdown="span">
 ![Checklist buttons](assets/images/checklist-bottom-buttons.png){ width="1000" }<figcaption>Checklist buttons</figcaption>
 </figure>
 
 At the bottom of the checklist table, there are four buttons:
+
 1. **Save Curation Log (Word)**: this button will save the curation log in a Word document format. The curation log includes the checklist table with all the information you have filled in.
 2. **Calculate Time Spent**: this button will calculate the total time spent on the checklist based on the time logged for each item. A notification will pop up to show the total time spent.
 3. **Export YAML**: this button will export the checklist table in a YAML format.

@@ -3,6 +3,10 @@ title: Installation
 description: Instructions for installing the U of T Dataverse Curation Tool
 
 ---
+
+Installation Instructions
+===
+
 !!! note
 
     The below instruction is for the testing phase use only.
