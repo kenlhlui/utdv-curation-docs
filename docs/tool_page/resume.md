@@ -23,3 +23,5 @@ You can use the filter section to search for the project you want to resume, by:
 # Project table
 The project table lists all the curation projects.
 
+You can click on the row of the project to resume to the checklist page of the project.
+
