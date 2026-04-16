@@ -49,12 +49,12 @@ nav = [
   { "Installation" = "installation.md" },
   { "Testing" = "testing.md" },
   { "Tool features" = [
-      "tool_page/index.md",
-      "tool_page/landing.md",
-      "tool_page/new_dataset.md",
-      "tool_page/checklist.md",
-      "tool_page/resume.md",
-      "tool_page/delete.md",
+      "features/index.md",
+      "features/landing.md",
+      "features/new_dataset.md",
+      "features/checklist.md",
+      "features/resume.md",
+      "features/delete.md",
   ]}
 ]
 
