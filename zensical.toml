@@ -47,6 +47,7 @@ Copyright &copy; 2026 The authors
 nav = [
   { "Home" = "index.md" },
   { "Installation" = "installation.md" },
+  { "Restart" = "restart.md" },
   { "Testing" = "testing.md" },
   { "Tool features" = [
       "features/index.md",
