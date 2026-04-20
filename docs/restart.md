@@ -11,7 +11,7 @@ Restart instructions
 To restart the U of T Dataverse Curation Tool on a Windows local machine, follow the steps below:
 
 # Steps
-1. Open a PowerShell terminal. Type (or copy and paste) the following command to change your terminal's directory to the pydatacuration-p folder:
+1. Open a PowerShell terminal. Type (or copy and paste) the following command to change your terminal's directory to the *pydatacuration-p* folder:
    ```powershell
    cd pydatacuration-p
    ```
