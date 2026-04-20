@@ -23,7 +23,7 @@ To restart the U of T Dataverse Curation Tool on a Windows local machine, follow
    code .
    ```
 
-3. Open the `.env` file in VS Code. Change the value of API_TOKEN to your API token.
+3. Open the `.env` file in VS Code. Change the value of API_TOKEN to your latest API token, especially if you have revoked or generated a new one.
 
 4. Finally, run the application in the PowerShell terminal using the following command:
    ```powershell
