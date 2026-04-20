@@ -20,7 +20,7 @@ To install the U of T Dataverse Curation Tool on a Windows local machine, follow
 3. [VS Code](https://code.visualstudio.com/)
 
 # Steps
-1. First, install the prerequisites if you haven't already. You can download Git from [here](https://git-scm.com/downloads) and uv from [here](https://pypi.org/project/uv/). For VS Code, you can download it from [here](https://code.visualstudio.com/).
+1. First, install the prerequisites if you haven't already. from the links provided above.
    1. Remember to select the option 'Git Credential Manager' during Git installation.
 2. If the tool's GitHub repository remains private, you will need to request access from Ken. Authenticate with Github using the Git Credential Manager when prompted.
 3. Clone the repository to your local machine using the in a PowerShell terminal:
@@ -54,11 +54,20 @@ To install the U of T Dataverse Curation Tool on a Windows local machine, follow
     collection_alias='toronto' # The alias for U of T Dataverse collection on Borealis
    ```
 
-8. Run the application using uv:
+1. Run the application using uv:
    ```powershell
    uv run --env-file .env app.py
    ```
 
-You should be able to access the tool at `http://localhost:9005` in your web browser.
+# Access the tool
+You should be able to access the tool at http://localhost:9005 in your web browser.
 
-Go to the next page for the testing instructions: [Testing](./testing.md)
+# Close the application
+To close the application, simply press `Ctrl + C` in the PowerShell terminal.
+
+!!! danger "API Token security tip"
+
+    A best security practice is revoke the API Token in Borealis after you are done using the tool. You can generate a new API token for the next time you use the tool.
+
+# Next steps
+Go to the [testing page](./testing.md) for the testing instructions.
