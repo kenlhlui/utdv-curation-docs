@@ -15,7 +15,7 @@ To restart the U of T Dataverse Curation Tool on a Windows local machine, follow
 1. Open a PowerShell terminal.
    
       <video width="100%" controls>
-      <source src="/assets/videos/open-powershell.mp4" type="video/mp4">
+      <source src="assets/videos/open-powershell.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
@@ -25,7 +25,7 @@ To restart the U of T Dataverse Curation Tool on a Windows local machine, follow
    ```
 
       <video width="100%" controls>
-      <source src="/assets/videos/cd-pydatacuration.mp4" type="video/mp4">
+      <source src="assets/videos/cd-pydatacuration.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
@@ -35,14 +35,14 @@ To restart the U of T Dataverse Curation Tool on a Windows local machine, follow
    code .
    ```
       <video width="100%" controls>
-      <source src="/assets/videos/enter-vs-code.mp4" type="video/mp4">
+      <source src="assets/videos/enter-vs-code.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
 4. Open the `.env` file in VS Code using the left panel. Change the value of `API_TOKEN` to your latest API token, especially if you have revoked or generated a new one. Also change the `CURATOR_NAME` and `CURATOR_EMAIL` if necessary.
 
       <video width="100%" controls>
-      <source src="/assets/videos/change-env.mp4" type="video/mp4">
+      <source src="assets/videos/change-env.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
@@ -52,7 +52,7 @@ To restart the U of T Dataverse Curation Tool on a Windows local machine, follow
    ```
 
       <video width="100%" controls>
-      <source src="/assets/videos/uv-run-apppy.mp4" type="video/mp4">
+      <source src="assets/videos/uv-run-apppy.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
