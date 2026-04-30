@@ -90,7 +90,6 @@ Finally, you will see the checklist table. Each row in the table is a checklist 
 
 At the bottom of the checklist table, there are four buttons:
 
-1. **Save Curation Log (Word)**: this button will save the curation log in a Word document format. The curation log includes the checklist table with all the information you have filled in.
-2. **Calculate Time Spent**: this button will calculate the total time spent on the checklist based on the time logged for each item. A notification will pop up to show the total time spent.
-3. **Export YAML**: this button will export the checklist table in a YAML format.
-4. **New Dataset**: this button will take you back to the landing page.
+1. **Save Curation Log (Word)**: this button will download the curation log in a Word document format. The curation log includes the checklist table with all the information you have filled in.
+2. **Export YAML**: this button will export the checklist table in a YAML format.
+3. **New Dataset**: this button will take you back to the landing page.
