@@ -13,16 +13,16 @@ Delete Project page
 
 This is the page for deleting a project.
 
-# Navigation
+## Navigation
 Click the '← Back' to return to the landing page.
 
-# Filtering Projects
+## Filtering Projects
 You can use the filter section to search for the project you want to delete, by:
 
 1. Using the search box to search for the project by the Project Number, Dataset DOI, or Dataset Title.
 2. Filtering the curator by selecting the curator name from the dropdown menu.
 
-# Project table
+## Project table
 The project table lists all the curation projects. 
 
 !!! warning

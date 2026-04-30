@@ -11,5 +11,3 @@ description: Instructions for testing the U of T Dataverse Curation Tool
       1. **Status**: Select the appropriate status for each item (Pass, Follow-Up, TBD, Not Applicable)
       2. **Comments**: Fill in the comments with the checklist item.
       3. **Time Spent**: Log the time spent on each item in the checklist. Click the start `▶︎` button to start the timer when you begin working on an item, and click the stop `■` button when you finish. The time will be logged in the "Time Spent" column. <br>If you forget to start the timer, you can also manually input the time spent in the "Time Spent" column in the format of MM:SS (e.g. 15:30 for 15 minutes and 30 seconds).
-
-Tip: While a file is selected in Windows File Explorer, you can press `F2` to rename it.
