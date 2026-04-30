@@ -39,9 +39,14 @@ Next, below the project and checklist metadata, you will see the status and time
 
 The status and time spent dashboard is designed to give you a quick overview of the progress of your checklist review. 
 
-The status count will update as you:
-1. Update the 'Status' of each checklist item in the table
-2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent.
+The dashboard will update as you:
+
+1. Update the 'Status' of each checklist item in the table. 
+      1. Each status (Pass, Follow-up, TBD, Not Applicable) has a different color badge
+      2. The number of the status count (inside he bracket) will update as you change the status of the checklist item in the table.  
+2. Update 'Time Spent' for each checklist item in the table, either by clicking the start/stop timer button or by manually inputting the time spent. 
+      1. The number of time spent count (inside the bracket) will update as you fill in the time spent for each checklist item in the table.
+3. Update the 'Curator's Comments' for each checklist item in the table.  
 
 On the top right corner of the dashboard, there's a 'View Only' button, where you can toggle the page to a view-only mode, without the ability to edit the checklist.
 
